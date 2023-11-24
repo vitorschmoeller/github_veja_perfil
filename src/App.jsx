@@ -4,7 +4,7 @@ import { useState } from "react";
 import Perfil from "./components/Perfil";
 import Formulario from "./components/Formulario/index";
 import ReposList from "./components/ReposList/index"
-import Teste from "./components/teste/index"
+
 
 
 function App() {
@@ -31,10 +31,6 @@ function App() {
       <Formulario/>
       )}
   <button onClick={() => setFormularioEstaVisivel(!formularioEstaVisivel)} type="button">toggle form</button> */}
-    
-    <div>
-        <Teste />
-    </div>
     </>
     
   )
